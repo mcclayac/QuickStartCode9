@@ -21,6 +21,22 @@ void main(List<String> arguments) {
   print('Dart Packages and Libraries');
   // https://learning.oreilly.com/library/view/quick-start-guide/9781484255629/A490744_1_En_9_Chapter.html
 
+  // Library Inclusion
+  code_libraries();
+
+
+
+}
+
+//----------------------------------------------
+//----------------------------------------------
+
+
+void code_libraries() {
+  print("----------------------------------------------");
+  print("----------------------------------------------");
+  print("Code 9 Libaries");
+  print("");
 
   print("Printing 2 to the power 5 using Dart's built-in 'dart:math' library.");
   var int = math.pow(2, 5);
